@@ -2,12 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package iu.edu.civ;
+package iu.edu.civ2;
 
 /**
  *
- * @author scaa890809
+ * @author Shrutika Poyrekar
  */
-public class Technology {
+class City {
+
+    
     
 }

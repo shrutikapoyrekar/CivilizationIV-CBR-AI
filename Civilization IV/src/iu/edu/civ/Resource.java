@@ -1,5 +1,7 @@
 package iu.edu.civ;
 
+import iu.edu.civ.improvement.Improvement;
+
 public abstract class Resource {
 	String requirement;
 	String name;

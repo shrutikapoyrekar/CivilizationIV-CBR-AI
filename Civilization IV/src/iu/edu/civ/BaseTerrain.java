@@ -8,7 +8,8 @@ public class BaseTerrain {
 	private double improvementPenalty;
 	private boolean hill;
 	
-	public boolean isHill() {
+	public boolean isHill() 
+        {
 		return hill;
 	}
 

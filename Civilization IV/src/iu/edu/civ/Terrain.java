@@ -1,6 +1,10 @@
 package iu.edu.civ;
+
+import iu.edu.civ.improvement.Improvement;
+
 class City{}
-public class Terrain {
+public class Terrain 
+{
 	BaseTerrain baseTerrain;
 	TerrainFeature terrainFeature;
 	Improvement improvement;
@@ -26,6 +30,10 @@ public class Terrain {
 		this.resource = r;
 		road = false;
 		city = null;
+	}
+	
+	public double getDefenseBonus(){
+		return 0;
 	}
 
 	public BaseTerrain getBaseTerrain() {
@@ -67,4 +75,8 @@ public class Terrain {
 	public void setRoad(boolean road) {
 		this.road = road;
 	}
+
+    public float getMovementCost() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
